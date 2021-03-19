@@ -20,7 +20,7 @@ body {
     align-items: center;
 }
 
-.menu_logo {}
+.menu_container .menu_logo {}
 
 .menu_nav ul {
     display: flex;
@@ -32,4 +32,35 @@ body {
 .menu_nav a {
     color: #fff;
     text-decoration: none;
+    padding: 10px;
+    /*18/16pxsaberotamanhodafonteEMsempredividirotamanhodafontepelovalordafonte*/
+    font-size: 1.125em;
+}
+
+.intro {
+    background: url(../img/bg-intro.jpg) no-repeat center center;
+    display: block;
+    background-size: cover;
+    padding: 125px 0;
+    text-align: center;
+    color: #fff
+}
+
+.intro h1 {
+    text-transform: uppercase;
+    font-size: 3em
+}
+
+.intro h1::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 20px;
+    background: #fff;
+    margin: 15px auto
+}
+
+.intro p {
+    font-size: 1.125em;
+    font-style: italic;
 }
