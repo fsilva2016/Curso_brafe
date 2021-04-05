@@ -319,8 +319,29 @@ body {
 @media (min-width:740px) and (max-width:960px) {
     .conteiner {
         padding: 0 15px;
+        max-width: 730px;
     }
     .menu_nav ul {
         width: 100%;
+    }
+    .sobre .conteiner {
+        padding: 0;
+    }
+    .sobre .conteiner .sobre_item {
+        padding: 10px 15px;
+    }
+    .produtos .conteiner {
+        padding: 0;
+    }
+    .produtos .conteiner .produtos_item {
+        padding: 10px 15px;
+    }
+    .assine button {
+        font-size: 0.9em;
+        width: 140px;
+    }
+    .assine form input {
+        width: 42%;
+        font-size: 0.9em;
     }
 }
